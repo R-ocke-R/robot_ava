@@ -1,0 +1,30 @@
+# ROS 2 build, install, and log directories
+build/
+install/
+log/
+*.log
+
+# ROS 2 overlays
+/devel/
+*.overlay
+
+# Python artifacts
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.py[cod]
+
+# VS Code / IDE files
+.vscode/
+.idea/
+*.swp
+
+# macOS files
+.DS_Store
+
+# Colcon-specific
+*.egg-info/
+*.egg
+
+s

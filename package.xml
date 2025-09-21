@@ -3,12 +3,13 @@
 <package format="3">
   <name>my_package</name>
   <version>0.0.0</version>
-  <description>Testing Python Launch Files</description>
+  <description>Learning ROS</description>
   <maintainer email="sharmamanu2727@gmail.com">manu</maintainer>
   <license>Apache-2.0</license>
   <exec_depend>launch</exec_depend>
   <exec_depend>demo_nodes_cpp</exec_depend>
   <exec_depend>demo_nodes_py</exec_depend>
+  <exec_depend>rclpy</exec_depend>
 
   <test_depend>ament_copyright</test_depend>
   <test_depend>ament_flake8</test_depend>
